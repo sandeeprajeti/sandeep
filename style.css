@@ -24,7 +24,7 @@ header {
   text-decoration: none;
   background-color: #111;
   color: white;
-  padding: 80px 40px;
+  padding: 80px 100px;
   width: 300px;
   border-radius: 8px;
   border: 1px solid #444;
@@ -33,7 +33,7 @@ header {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin: 150px 150px 0 150px;  /* top margin 100px, sides 10px */
+  margin: 150px 550px 0 530px;  /* top margin 100px, sides 10px */
   vertical-align: top;
   
 }
@@ -50,7 +50,7 @@ body {
   text-decoration: none;
   background-color: #111;
   color: white;
-  padding: 80px 40px;
+  padding: 80px 100px;
   width: 300px;
   border-radius: 8px;
   border: 1px solid #444;
@@ -58,7 +58,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  margin: 100px auto 0 auto;  /* Top margin to push down */
+  margin: 150px auto 0 auto;  /* Top margin to push down */
 }
 
 /* Ensure it's centered */
@@ -83,4 +83,4 @@ footer {
   background-color: #111;
   color: white;
 }
-d
+
