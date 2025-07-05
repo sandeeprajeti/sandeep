@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  text-align: center;
+  background: #111;
+  color: white;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+#frontendseries,
+#interviewprep {
+  text-decoration: none;
+  background-color: #111;
+  color: white;
+  padding: 80px 40px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  display: inline-block;
+  
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 150px 150px 0 150px;  /* top margin 100px, sides 10px */
+  vertical-align: top;
+  
+}
+
+/* Align the entire body content to center */
+body {
+  text-align: center;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#googlecourses {
+  text-decoration: none;
+  background-color: #111;
+  color: white;
+  padding: 80px 40px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #444;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 100px auto 0 auto;  /* Top margin to push down */
+}
+
+/* Ensure it's centered */
+body {
+  text-align: center;
+}
+/* Remove underlines from all states */
+#frontendseries:link,
+#frontendseries:visited,
+#frontendseries:hover,
+#frontendseries:active,
+#interviewprep:link,
+#interviewprep:visited,
+#interviewprep:hover,
+#interviewprep:active {
+  text-decoration: none;
+}
+footer {
+  margin-top: 60px;
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: white;
+}
+d

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>7 Days HTML Learning Series</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+      line-height: 1.8;
+    }
+
+    h1, h2 {
+      color: #333;
+    }
+
+    .day-section {
+      background: #fff;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    code {
+      background-color: #eee;
+      padding: 2px 5px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    pre {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+    #ma {
+        margin-left: 500px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="ma">HTML & CSS Daily Learning Series</h1>
+
+  <!-- Day 1 -->
+  <div class="day-section">
+    <h2>Day 1 - What is Frontend?</h2>
+    <p>The <strong>frontend</strong> is the part of a website or web application that users interact with directly. It includes everything the user experiences: layout, styling, buttons, images, animations, and structure.</p>
+    <p><strong>Frontend Technologies:</strong></p>
+    <ul>
+      <li>HTML (Structure)</li>
+      <li>CSS (Style)</li>
+      <li>JavaScript (Interactivity)</li>
+    </ul>
+    <p><strong>Examples:</strong></p>
+    <ul>
+      <li>Navigation menus</li>
+      <li>Image sliders</li>
+      <li>Responsive layouts</li>
+      <li>Forms, buttons, animations</li>
+    </ul>
+  </div>
+
+  <!-- Day 2 -->
+  <div class="day-section">
+    <h2>Day 2 - VS Code Installation</h2>
+    <p>To write and test HTML/CSS code efficiently, we use a code editor. The most popular one is <strong>Visual Studio Code (VS Code)</strong>.</p>
+    <p><strong>Steps:</strong></p>
+    <ol>
+      <li>Go to <a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com</a></li>
+      <li>Download the installer based on your OS (Windows, Mac, Linux)</li>
+      <li>Install and launch VS Code</li>
+      <li>Create a new folder and open it in VS Code</li>
+      <li>Right-click → New File → Write <code>index.html</code></li>
+    </ol>
+  </div>
+
+  <!-- Day 3 -->
+  <div class="day-section">
+    <h2>Day 3 - alt in &lt;img&gt; and Personal Web Page</h2>
+    <p><strong>What is <code>alt</code> in an &lt;img&gt; tag?</strong></p>
+    <p>The <code>alt</code> attribute provides alternative text for an image if it cannot be displayed. It also helps screen readers describe the image for accessibility.</p>
+
+    <h3>📝 Task: Create a Simple Web Page About Yourself</h3>
+    <ul>
+      <li>Use <code>&lt;head&gt;</code> to add a title</li>
+      <li>Use <code>&lt;body&gt;</code> for visible content</li>
+      <li>Use all heading tags <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code></li>
+      <li>Write two paragraphs about yourself</li>
+      <li>Insert one image with alt text</li>
+      <li>Use proper HTML structure</li>
+    </ul>
+  </div>
+
+  <!-- Day 4 -->
+  <div class="day-section">
+    <h2>Day 4 - Build a Navigation Menu</h2>
+    <h3>🔧 TASK: Navigation Menu</h3>
+    <ul>
+      <li>Create an unordered list <code>&lt;ul&gt;</code> with these items:</li>
+      <ul>
+        <li>Home → <code>#home</code></li>
+        <li>About → <code>#about</code></li>
+        <li>Services → <code>#services</code></li>
+        <li>Contact → <code>#contact</code></li>
+      </ul>
+      <li>Use anchor tags <code>&lt;a&gt;</code> inside list items</li>
+      <li>Add a heading <code>&lt;h1&gt;My Website&lt;/h1&gt;</code> at the top</li>
+    </ul>
+  </div>
+
+  <!-- Day 5 -->
+  <div class="day-section">
+    <h2>Day 5 - Audio, Video, Table</h2>
+    <ul>
+      <li>Insert an <strong>audio</strong> and <strong>video</strong> file using <code>&lt;audio&gt;</code> and <code>&lt;video&gt;</code></li>
+      <li>Create a table showing your friends' marks</li>
+    </ul>
+  </div>
+
+  <!-- Day 6 -->
+  <div class="day-section">
+    <h2>Day 6 - Login & Registration Form</h2>
+    <p>Create two forms using <code>&lt;form&gt;</code>:</p>
+    <ul>
+      <li>Login Form: email, password, submit button</li>
+      <li>Registration Form: name, email, password, confirm password, submit</li>
+    </ul>
+  </div>
+
+  <!-- Day 7 -->
+  <div class="day-section">
+    <h2>Day 7 - Semantic Tags in HTML</h2>
+    <p><strong>Semantic Tags</strong> are HTML5 tags that clearly describe the meaning and structure of content.</p>
+
+    <h3>✅ Why Use Semantic Tags?</h3>
+    <ul>
+      <li>Improves readability</li>
+      <li>SEO friendly</li>
+      <li>Better accessibility</li>
+      <li>Logically structured code</li>
+    </ul>
+
+    <h3>🏷️ Common Semantic Tags:</h3>
+    <ul>
+      <li><code>&lt;header&gt;</code> – Top of page (logo, title, nav)</li>
+      <li><code>&lt;nav&gt;</code> – Navigation links</li>
+      <li><code>&lt;main&gt;</code> – Main content</li>
+      <li><code>&lt;section&gt;</code> – Section of related content</li>
+      <li><code>&lt;article&gt;</code> – Standalone content (e.g., blog)</li>
+      <li><code>&lt;aside&gt;</code> – Sidebar or related info</li>
+      <li><code>&lt;footer&gt;</code> – Bottom info (contact, copyright)</li>
+    </ul>
+
+    <h3>Task: Build Personal Portfolio Page</h3>
+    <ul>
+      <li>Use semantic tags</li>
+      <li>Include your name, skills, projects</li>
+      <li>Add a "Contact Me" form</li>
+    </ul>
+  </div>
+  <!-- Final Section: HTML Project Ideas -->
+<div class="day-section">
+  <h2>🎯 Final: 5 Hands-On HTML Project Ideas</h2>
+  <p>Now that you've learned the core concepts of HTML, here are 5 beginner-friendly projects to put your knowledge into practice!</p>
+
+  <ol>
+    <li><strong>Personal Portfolio Page</strong><br>
+      <em>Use:</em> <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;form&gt;</code><br>
+      Create a personal web page with your name, photo, skills, and a contact form.
+    </li><br>
+
+    <li><strong>Restaurant Menu Page</strong><br>
+      <em>Use:</em> <code>&lt;table&gt;</code>, <code>&lt;img&gt;</code>, <code>&lt;ul&gt;</code>, <code>&lt;section&gt;</code><br>
+      Build a menu with categories like Starters, Main Course, and Beverages along with prices.
+    </li><br>
+
+    <li><strong>Music & Video Gallery</strong><br>
+      <em>Use:</em> <code>&lt;audio&gt;</code>, <code>&lt;video&gt;</code>, <code>&lt;figure&gt;</code>, <code>&lt;figcaption&gt;</code><br>
+      Add a section that plays songs and videos with proper titles.
+    </li><br>
+
+    <li><strong>Student Marks Table</strong><br>
+      <em>Use:</em> <code>&lt;table&gt;</code>, <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tr&gt;</code>, <code>&lt;th&gt;</code>, <code>&lt;td&gt;</code><br>
+      Display marks of 5 friends in 3 subjects and highlight the topper.
+    </li><br>
+
+    <li><strong>Simple Blog Article Page</strong><br>
+      <em>Use:</em> <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code><br>
+      Write a blog post with title, content, author info, and tips in a sidebar.
+    </li>
+  </ol>
+
+  <p>✅ You can use only HTML for these projects. Later you can improve them with CSS and JavaScript.</p>
+</div>
+
+
+</body>
+</html>
