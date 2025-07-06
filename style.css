@@ -1,12 +1,14 @@
+/* Reset and base styles */
 body {
-  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
+/* Header styles */
 header {
-  text-align: center;
   background: #111;
   color: white;
   padding: 20px;
@@ -19,68 +21,54 @@ header {
   object-fit: cover;
   border: 4px solid white;
 }
-#frontendseries,
-#interviewprep {
+
+/* Container to hold all boxes */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+/* Box link styles */
+.box-link {
   text-decoration: none;
   background-color: #111;
   color: white;
-  padding: 80px 100px;
-  width: 300px;
+  padding: 60px 40px;
+  width: 280px;
   border-radius: 8px;
   border: 1px solid #444;
-  display: inline-block;
-  
   font-size: 20px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  margin: 150px 550px 0 530px;  /* top margin 100px, sides 10px */
-  vertical-align: top;
-  
+  transition: transform 0.3s ease;
 }
 
-/* Align the entire body content to center */
-body {
-  text-align: center;
-  background-color: #f9f9f9;
-  font-family: 'Segoe UI', sans-serif;
-  margin: 0;
-  padding: 0;
-}
-#googlecourses {
-  text-decoration: none;
-  background-color: #111;
-  color: white;
-  padding: 80px 100px;
-  width: 300px;
-  border-radius: 8px;
-  border: 1px solid #444;
-  display: inline-block;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  margin: 150px auto 0 auto;  /* Top margin to push down */
+.box-link:hover {
+  transform: scale(1.05);
 }
 
-/* Ensure it's centered */
-body {
-  text-align: center;
-}
-/* Remove underlines from all states */
-#frontendseries:link,
-#frontendseries:visited,
-#frontendseries:hover,
-#frontendseries:active,
-#interviewprep:link,
-#interviewprep:visited,
-#interviewprep:hover,
-#interviewprep:active {
-  text-decoration: none;
-}
+/* Footer styles */
 footer {
-  margin-top: 60px;
+  margin-top: 180px;
   text-align: center;
   padding: 20px;
   background-color: #111;
   color: white;
 }
 
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+  .box-link {
+    width: 90%;
+    padding: 40px 20px;
+    font-size: 18px;
+  }
+}
